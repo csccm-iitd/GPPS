@@ -2,7 +2,7 @@
   <img src="logo.png" width="300" alt="Logo" />
 </p>
 
-# Scalable h-adaptive probabilistic solver for time-independent and time-dependent systems
+# Scalable $h$-adaptive probabilistic solver for time-independent and time-dependent systems
 
 This repository contains the implementation for the paper:
 
