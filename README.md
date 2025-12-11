@@ -23,7 +23,7 @@ The code implements a scalable **Gaussian process probabilistic numerical solver
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/savnkr/GPPS.git
+    git clone https://github.com/csccm-iitd/GPPS.git
     cd GPPS
     ```
 
