@@ -6,7 +6,7 @@
 
 This repository contains the implementation for the paper:
 
-> **Scalable $h$-adaptive probabilistic solver for time-independent and time-dependent systems**  ([Link](https://www.arxiv.org/pdf/2508.09623))
+> **Scalable $h$-adaptive probabilistic solver for time-independent and time-dependent systems**  ([Link](https://www.arxiv.org/abs/2508.09623))
 
 ## Overview
 The code implements a scalable **Gaussian process probabilistic solver (GPPS)** for partial differential equations that combines a Gaussian process (GP) representation of the solution, a stochastic dual descent (SDD) algorithm for fast inference, and a **clustering-based active learning** strategy for **$h$-adaptive** refinement. The method applies to both time-independent (steady-state) and time-dependent (space–time) PDEs, and returns not only numerical solutions but also rigorous posterior uncertainty quantification (UQ). Unlike standard GP-based solvers, the approach in the paper is computationally scalable, and high-dimensional problems.
